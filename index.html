@@ -63,10 +63,7 @@
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <button
-                  class="btn btn-outline-primary px-4 fw-bold"
-                  type="submit"
-                >
+                <button class="btn btn-outline-info px-4 fw-bold" type="submit">
                   Register
                 </button>
               </form>
@@ -107,7 +104,7 @@
                     </p>
                     <button
                       type="button"
-                      class="btn bg-primary text-light fw-semibold px-4 py-2"
+                      class="btn elearning-bg text-light fw-semibold px-4 py-2"
                     >
                       Get Started
                     </button>
@@ -380,10 +377,7 @@
           </div>
           <div class="row">
             <div class="col text-center my-5">
-              <a
-                href="#courses"
-                class="btn bg-primary text-light fw-semibold px-4 py-2"
-              >
+              <a href="#courses" class="btn elearning-bg fw-semibold px-4 py-2">
                 See More Courses
               </a>
             </div>
@@ -392,6 +386,112 @@
       </article>
     </main>
     <!-- Main Section End -->
+    <!-- Register Section Start -->
+    <section>
+      <div class="container elearning-bg text-light rounded p-5">
+        <div class="row">
+          <div
+            class="col-md-12 col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center"
+          >
+            <div class="text-center text-lg-start">
+              <h4 class="fs-2 fw-bold pb-2">Ready to join?</h4>
+              <p>
+                <small
+                  >It is a long established fact that a reader will be
+                  distracted by the readable content of a page when looking at
+                  its layout.</small
+                >
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-12 col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center"
+          >
+            <button
+              type="button"
+              class="btn bg-light text-info fw-semibold px-4 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
+            >
+              Register Now
+            </button>
+
+            <!-- Register Form Modal  -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">
+                      Sign Up
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="text-dark">
+                      <div class="mb-1">
+                        <label for="full-name" class="col-form-label"
+                          >Full Name:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="full-name"
+                        />
+                      </div>
+                      <div class="mb-1">
+                        <label for="email-name" class="col-form-label"
+                          >Email Name:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="email-name"
+                        />
+                      </div>
+                      <div class="mb-1">
+                        <label for="password-box" class="col-form-label"
+                          >Password:</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="password-box"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Log In
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Register Section End -->
     <!-- Asked Question Section Start -->
     <article>
       <div class="container">
