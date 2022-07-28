@@ -1,0 +1,7 @@
+.banner-bg {
+  background-color: rgba(29, 29, 29, 0.7);
+}
+.carousel-item img {
+  min-height: 280px;
+  max-height: 90vh;
+}
